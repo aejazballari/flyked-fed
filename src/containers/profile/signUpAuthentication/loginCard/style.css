@@ -1,0 +1,66 @@
+.login-card-main {
+  border-radius: 10px !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #ffffff !important;
+  margin: 1rem !important;
+  padding: 1.5rem !important;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1) !important;
+}
+
+.login-card-main-logo {
+  font: normal normal bold 22px/26px 'SF Pro Display', sans-serif !important;
+  color: #043d2f;
+  margin: 1rem 0 !important;
+}
+
+.login-card-main-label {
+  font: normal normal 12px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #333333;
+  margin: 1rem 0 !important;
+}
+
+.login-card-main-sub-label {
+  font: normal normal bold 19px 'SF Pro Rounded', sans-serif !important;
+
+  letter-spacing: 0.02em;
+  color: #333333;
+  margin: 1rem 0 !important;
+}
+
+.login-card-sub-label {
+  font: normal normal 600 12px/14px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #1c2121;
+  margin: 2rem 0 !important;
+}
+
+.login-card-footer-label {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #1c2121;
+  text-align: center;
+  margin: 1rem 0 !important;
+}
+
+.login-card-footer-label a {
+  color: #ef613b;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .login-card-main-logo {
+    font: normal normal 600 20px/24px 'SF Pro Rounded', sans-serif !important;
+    color: #1c2121;
+    letter-spacing: 0.02em;
+    margin: 1rem 0 !important;
+  }
+
+  .login-card-sub-label {
+    font: normal normal 500 12px/14px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #1c2121;
+    margin: 1rem 0 !important;
+  }
+}

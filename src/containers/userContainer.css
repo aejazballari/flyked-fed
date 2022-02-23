@@ -1,0 +1,40 @@
+img.signup-logo {
+    display: block;
+    margin: 2rem auto;
+    width: 32%;
+}
+h3.MuiTypography-root.text-header.MuiTypography-h3.MuiTypography-alignCenter {
+    font-weight: 500;
+    margin-bottom: 4rem;
+    font-weight: 32px;
+}
+.MuiTypography-root.signin-text {
+    margin: 2rem;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.sigin-buttons {
+    width: 100%;
+    /* height: 43px; */
+    background-color: #EF613B;
+    padding: 16px;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+    color: #fff;
+}
+.sigin-buttons img.googleIcon {
+    margin-right: 1rem;
+    width: 5%;
+}
+.sigin-buttons img.fbIcon {
+    margin-right: 1rem;
+    width: 3%;
+}
+.termsCondition {
+    margin: 4rem 0rem 2rem 0rem;
+}
+.termsCondition a {
+    color: #EF613B;
+    text-decoration: none;
+}

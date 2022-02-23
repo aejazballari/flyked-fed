@@ -1,0 +1,24 @@
+.login-google-btn {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 6px !important;
+    font: normal normal 600 14px/17px "SF Pro Rounded", sans-serif !important;
+    letter-spacing: 0.02em !important;
+    text-transform: capitalize !important;
+    height: 48px;
+}
+
+.login-fb-btn {
+    color:#FFFFFF !important;
+    background: #1877F2 !important;
+    border-radius: 6px !important;
+    font: normal normal 600 14px/17px "SF Pro Rounded", sans-serif !important;
+    letter-spacing: 0.02em;
+    text-transform: capitalize !important;
+    height: 48px;
+}
+
+.iconBtns {
+    margin-right: 1rem;
+    /* width: 1.5rem; */
+    image-rendering: pixelated !important;
+}

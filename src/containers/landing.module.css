@@ -1,0 +1,20 @@
+.feed_section {
+ height: '88vh'; 
+ overflow-y: 'scroll'; scroll-behavior : 'smooth';
+}
+
+.desktop {
+ display:  none;
+}
+
+
+@media screen and (min-width: 1024px)  {
+ .mobile {
+  display:  none;
+ }
+
+ .desktop {
+  display:  block;
+ }
+
+}

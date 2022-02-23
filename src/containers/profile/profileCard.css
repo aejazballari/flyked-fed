@@ -1,0 +1,108 @@
+.card_details {
+    width: 100%;
+    padding-bottom: 0px;
+    margin-top: 0rem !important;
+}
+header.tabs-section {
+    padding: 0px;
+}
+.MuiTabs-root.tabs-container {
+    border-bottom: 1px solid #E3E5E8;
+    min-height: auto !important;
+}
+.card_details .profile {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 20px;
+}
+.card_details .MuiPaper-root.tabs-section {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px 30px;
+}
+.post-headings {
+    display: flex;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    /* justify-content: space-evenly; */
+}
+.post-headings .post-title {
+    margin-left: 2rem;
+    font-size: 16px;
+    color: #4D586F;
+}
+.tabs-section .MuiTab-textColorPrimary.Mui-selected {
+    color: #172849 !important;
+    font-weight: 600;
+}
+.tabs-section .MuiTab-root {
+    font-size: 16px !important;
+}
+.tabs-section .MuiTab-wrapper {
+    display: block !important;
+    text-align: left !important;
+    text-transform: capitalize;
+}
+.tabs-section span.MuiTabs-indicator {
+    background-color: #172849 !important;
+    height: 3px !important;
+    border-radius: 3px;
+}
+.tabs-container .MuiTab-root {
+    min-width: fit-content !important;
+}
+.tabs-container button.MuiTab-root {
+    padding: 0px !important;
+    margin-right: 1.5rem;
+    min-height: auto;
+    height: 40px;
+}
+.card_details button.settingsIcon-btn {
+    border: 1px solid #EF613B;
+    padding: 0;
+    width: 32px !important;
+    min-width: max-content;
+    height: 32px;
+}
+.profile-card-main .main-layout-header header a button {
+    display: none;
+}
+.profile-card-main .main-layout-header header h4 {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 959px) {
+    .tabs-section .MuiTab-root {
+        font-size: 14px !important;
+    }
+    .card_details {
+        margin-top: 0rem !important;
+        background-color: #ffffff !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .tabs-container button.MuiTab-root {
+        padding: 0px !important;
+        margin-right: 12px;
+    }
+    .tabs-section .MuiTab-root {
+        font-size: 13px !important;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1100px) {
+    .tabs-section .MuiTab-root {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+    .card_details .MuiPaper-root.tabs-section .MuiTabScrollButton-root {
+        display: none;
+    }
+    .card_details .MuiPaper-root.tabs-section {
+        padding: 0px 10px 0px 20px;
+    }
+}

@@ -1,0 +1,141 @@
+.preview_post_final_page_main_div {
+    /* height: 100vh; */
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    background-color: #172849;
+    justify-content: space-between;
+    overflow: hidden auto !important;
+}
+
+.post_preview_final_page_header {
+    padding: 20px 10px 0 0 !important;
+    text-align: right;
+}
+
+.post_preview_final_page_body {
+    position: relative;
+}
+
+.post-preview-final-page-footer {
+    margin-top: 1.5rem !important;
+}
+
+.post-preview-final-page-label {
+    text-align: center !important;
+    margin: 10px 10px !important;
+    font: normal normal 16px/19px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.post-preview-final-page-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start !important;
+    margin: 2rem 0px 0px 0px !important;
+}
+
+.post-preview-final-page-title {
+    font: normal normal 600 17px/22px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: .5rem !important;
+}
+
+.post-preview-final-page-sub-title {
+    font: normal normal 12px/15px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: .5rem !important;
+}
+.post-preview-final-page-btn {
+    width: 128px;
+    height: 45px;
+    border-radius: 6px !important;
+    margin-top: .5rem !important;
+    text-transform: capitalize !important;
+}
+
+.post-preview-final-page-similar-pages-div {
+    margin-top: .5rem !important;
+}
+
+.post-preview-final-page-similar-pages-div-child-label {
+    letter-spacing: 0.02em;
+    text-align: center !important;
+    font: normal normal 600 13px/16px 'SF Pro Rounded', sans-serif !important;
+    color: #FFFFFF;
+}
+
+.post-preview-suggest-cards-main {
+    background-color: #2e3e5b !important;
+    border-radius: 20px !important;
+    width: 181px !important;
+    height: 214px !important;
+    display: grid !important;
+    align-items: end !important;
+    align-content: space-around !important;
+}
+
+.post-preview-final-page-suggested-scroll {
+    /* width: 23.5rem !important; */
+    overflow: scroll hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+    padding: 1rem !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .post-preview-final-page-suggested-scroll {
+        /* width: 26.5rem !important; */
+    }
+}
+
+.post-suggest-page-card-title {
+    letter-spacing: 0.02em;
+    text-align: center !important;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    font: normal normal 600 14px/17px 'SF Pro Rounded', sans-serif !important;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.post-suggest-page-card-sub-title {
+    letter-spacing: 0.02em;
+    text-align: center !important;
+    font: normal normal 300 12px/14px 'SF Pro Rounded', sans-serif !important;
+    color: #FFFFFF;
+}
+
+.post-suggest-page-card-btn {
+    text-transform: capitalize !important;
+    height: 36px;
+    color: #FFFFFF !important;
+}
+
+.post-preview-final-page-suggested-scroll::-webkit-scrollbar {
+    height: .8rem !important;
+}
+
+.post-preview-final-page-suggested-scroll::-webkit-scrollbar-track {
+    border-radius: 10px !important;
+}
+  
+.post-preview-final-page-suggested-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    background-color: #EF613B !important;
+}
+  
+.post-preview-final-page-suggested-scroll::-webkit-scrollbar:vertical {
+    display: none;
+}

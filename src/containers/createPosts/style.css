@@ -1,0 +1,744 @@
+.create-post-main-body {
+  height: auto;
+  width: 100%;
+  overflow: hidden !important;
+  /* margin-top: 1rem !important; */
+}
+
+.create-post-main-headding {
+  font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #1c2121;
+  margin: 0 !important;
+  display: none;
+}
+
+.post-image-input-card {
+  display: flex;
+  /* width: 100% !important; */
+  height: 65vh;
+  margin: 2px !important;
+  background: transparent !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.post-image-uploaded {
+  width: 100% !important;
+  height: 65vh;
+  /* height: 420px !important; */
+  border-radius: 10px !important;
+  background-size: contain;
+  aspect-ratio: 3/4;
+}
+
+.post-image-progress-bar {
+  margin: -10px 7px 10px 7px !important;
+  border-radius: 10px !important;
+}
+
+.post-image-input-card-icon {
+  opacity: 0.1;
+  width: auto !important;
+  height: auto !important;
+  aspect-ratio: 1/1 !important;
+}
+.post-image-input-card-sub-label {
+  color: rgba(227, 229, 232, 0.2);
+  display: flex;
+  align-items: center;
+  margin-top: 10px !important;
+  font: normal normal 10px/12px 'SF Pro Rounded', sans-serif !important;
+}
+.post-image-input-card-label {
+  color: rgba(227, 229, 232, 0.2);
+  display: flex;
+  align-items: center;
+  margin-top: 10px !important;
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+}
+
+.post-step-container-card {
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 0px !important;
+  padding: 1rem !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding-bottom: 4rem !important;
+  margin-bottom: 1rem !important;
+  background: url('../../assets/postCategoryIcons/background-shape.svg') left
+      bottom -30% no-repeat,
+    #212121;
+}
+
+.post-form-inputfield {
+    text-align: center !important;
+    border: 1px solid rgba(210,211,211, 0.1) !important;
+    color: #E3E5E8 !important;
+    box-sizing: border-box !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    background: transparent;
+    font: normal normal 500 20px/25px "SF Pro Rounded", sans-serif !important;   
+    margin-top: .5rem;
+}
+.post-form-date-picker {
+  border: 1.5px solid rgba(210, 211, 211, 0.1) !important;
+  border-radius: 4px !important;
+}
+
+.post-next-btn-div {
+  text-align: right;
+  background: transparent !important;
+  border-radius: 0px !important;
+  width: 100%;
+  padding: 1rem !important;
+  box-shadow: '' !important;
+  position: relative !important;
+}
+.post-next-step-btn {
+  height: 56px;
+  border-radius: 0px !important;
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  text-transform: capitalize !important;
+}
+
+.post-step-back-btn-div {
+  text-align: left;
+  position: relative !important;
+  background: transparent !important;
+}
+.post-step-back-btn {
+  border-radius: 0px !important;
+  position: absolute !important;
+  top: -25px;
+  left: 0px;
+  right: 0px;
+  text-transform: capitalize !important;
+  font: normal normal 18px/21px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #ffffff !important;
+}
+
+.post-step-post-type-btn {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  text-transform: initial !important;
+  margin: 0px 10px !important;
+  border-radius: 50px !important;
+}
+.post-step-post-type-btn-mobile {
+  font: normal normal 10px/14px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  text-transform: initial !important;
+  margin: 0px 5px !important;
+  border-radius: 50px !important;
+  width: fit-content !important;
+}
+.post-category-select-mobile-view-div {
+  width: 23.5rem !important;
+  overflow-y: auto !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+  display:none !important;
+}
+::-webkit-scrollbar:horizontal {
+  display: none !important;
+} 
+
+@media screen and (min-height: 1024px) {
+  .post-image-uploaded { 
+    height: 540px !important;
+  }
+  .post-image-input-card { 
+    height: 540px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .post-image-uploaded { 
+      height: 65vh;
+        /* height: 540px !important; */
+    }
+    .post-next-btn-div {
+        background: #FFFFFF !important;
+        margin-bottom: 1rem !important;
+        border-radius: 0px 0px 10px 10px !important;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1) !important;
+    }
+    .post-next-step-btn {
+        border-radius: 4px !important;
+        position: static !important; 
+        height: 40px;
+        /* background:none; */
+    }
+    
+    .create-post-main-body {
+        background: #f7f7f8;
+        margin: 3rem 0 !important;
+    }
+    .post-image-input-card { 
+      height: 65vh;
+        /* height: 540px !important; */
+        margin: 5px 2px !important;
+        background: #F7F7F8 !important;
+    }
+    .post-image-input-card-icon {
+        opacity: 1;
+        aspect-ratio: 1/1 !important;
+    }
+    .post-image-input-card-label {
+        color: #888F9D;
+    }
+    .post-image-input-card-sub-label {
+      color: #888F9D;
+    }
+    .create-post-main-headding {
+        display: block;
+        margin: 1.5rem 0 !important;
+    }
+    .post-step-container-card {
+        background: #FFFFFF !important;
+        height: auto !important;
+        border-radius: 10px 10px 0px 0px !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 1rem !important;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1) !important;
+    }
+    .post-form-inputfield { 
+        border: 1px solid lightgrey !important;
+        color: #1C2121 !important;
+     }
+}
+
+/* model  */
+
+.page-select-model-header {
+  height: 60px !important;
+  background: #ffffff;
+  padding: 8px 15px !important;
+  box-shadow: 0px 4.0688px 10.172px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.page-select-model-header-label {
+  text-transform: initial !important;
+  font: normal normal 500 16px/19px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+  outline: none;
+  background: transparent !important;
+  display: flex;
+  align-items: center;
+}
+
+.page-select-model-footer {
+  height: auto !important;
+  background: #ffffff;
+  padding: 0px !important;
+  box-shadow: '';
+  text-align: right;
+}
+
+.page-select-model-footer-btn {
+  text-transform: initial !important;
+  font: normal normal 13px/16px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px !important;
+}
+
+.page-select-model-mobile-top-icon {
+  height: 4px !important;
+  margin-top: 10px !important;
+  width: 60px !important;
+  border-radius: 9px !important;
+  position: absolute;
+  background: #e6e8e8 !important;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.page-select-model-search-bar-main-div {
+  background: #f7f7f8;
+}
+
+.page-select-model-main-content-div {
+  height: 450px !important;
+  overflow-y: hidden !important;
+}
+
+.page-select-model-search-input-field {
+  background: #f7f7f8;
+  border-radius: 6px !important;
+  height: 40px;
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+  padding: 0px 10px;
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849 !important;
+}
+.page-select-model-page-list-main-div {
+  height: 300px !important;
+  /* overflow: hidden !important; */
+  overflow-y: auto !important;
+  margin-top: 0.5rem !important;
+}
+.page-select-model-suggested-label {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+}
+.page-select-model-page-footer-label {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+}
+.page-select-model-page-footer-label-link {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #ef613b;
+  text-decoration: none;
+  text-transform: initial !important;
+}
+.page-select-model-list-title {
+  font: normal normal bold 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+.page-select-model-list-desc {
+  font: normal normal 12px/14px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: lightslategray;
+  /* white-space: nowrap; */
+  display: '-webkit-box';
+  max-width: 15rem !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-select-modle-records-not-found-message {
+  font: normal normal 500 22px/26px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+  text-align: center !important;
+  margin-top: 3rem !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .page-select-model-list-title {
+    width: 100%;
+  }
+  .page-select-model-list-desc {
+    max-width: 23.5rem !important;
+  }
+  .page-select-model-page-list-main-div {
+    height: 330px !important;
+  }
+  .page-select-model-header {
+    height: 50px !important;
+  }
+  .page-select-model-footer-btn {
+    width: 125px;
+    height: 40px;
+    border-radius: 4px !important;
+  }
+  .page-select-model-footer {
+    height: 50px !important;
+    padding: 8px !important;
+    box-shadow: 0px -4px 10.172px rgba(0, 0, 0, 0.1);
+  }
+  .page-select-model-main-content-div {
+    height: 480px !important;
+  }
+}
+
+/* post select model */
+
+.post-type-selection-model-headding {
+  text-align: center;
+  margin-top: 15px !important;
+  color: #1c2121 !important;
+  font: normal normal 600 16px/19px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+}
+.post-type-selection-model-label {
+  width: 100%;
+  text-align: center;
+  color: #172849;
+  margin-top: 10px !important;
+  font: normal normal 12px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+}
+
+/* post preview */
+
+.post-preview-card {
+  /* background: #FFFFFF; */
+  box-shadow: none;
+  border-radius: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  /* height: 100vh !important; */
+  margin-top: 20px !important;
+}
+
+.post-preview-image {
+  /* width: 100% !important; */
+  height: 450px !important;
+  border-radius: 7.07713px;
+  image-rendering: pixelated;
+  display: grid !important;
+  align-content: space-between;
+  padding-bottom: 30px !important;
+}
+
+.post-preview-text {
+  text-align: center !important;
+  width: 100% !important;
+  color: #ffffff;
+  font: normal normal 16px/20px 'Lexend Deca', sans-serif !important;
+}
+.post-preview-header-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.post-preview-header-btn {
+  font: normal normal 600 18px/24px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+  text-transform: initial !important;
+}
+
+.post-preview-page-overview {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  text-transform: inherit !important;
+}
+.post-preview-page-overview-user-icon {
+  border: 1px solid #ff7d05;
+  height: 29px !important;
+  width: 29px !important;
+  background-size: cover !important;
+  image-rendering: pixelated;
+}
+
+.post-preview-page-overview-user-name {
+  font: normal normal 600 12px/15px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.post-preview-post-type-btn {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  text-transform: initial !important;
+  margin: 50px 10px 0px 10px !important;
+  border-radius: 50px !important;
+}
+.post-preview-message-content {
+  color: #888f9d;
+  text-align: center !important;
+  font: normal normal 14px/150% 'SF Pro Rounded', sans-serif !important;
+  margin: 0px 0 20px 0 !important;
+  padding: 0px 20px !important;
+}
+
+.post-preview-footer-back-div {
+  text-align: center;
+  background-color: whitesmoke;
+}
+.post-preview-footer-back-btn {
+  text-transform: capitalize !important;
+}
+.post-preview-footer-post-div {
+  text-align: right;
+  padding: 0px !important;
+}
+
+.post-preview-footer-post-btn {
+  height: 50px;
+  width: 100%;
+  text-transform: capitalize !important;
+  border-radius: 0px !important;
+}
+
+.post-preview-footer-btns-div {
+  margin: 0px !important;
+  position: relative !important;
+  /* height: 100% !important; */
+}
+
+.post-preview-footer-buttons-container {
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .post-preview-image {
+    height: 450px !important;
+  }
+  .post-preview-footer-btns-div {
+    margin: 2rem 0 0 0 !important;
+    height: max-content !important;
+  }
+  .post-preview-message-content {
+    margin: 20px 0 0 0 !important;
+  }
+  .post-preview-footer-buttons-container {
+    position: static !important;
+    margin-top: 10px !important;
+  }
+  .post-preview-post-type-btn {
+    margin: 0px 10px !important;
+  }
+  .post-preview-footer-post-btn {
+    width: 82px;
+    height: 40px;
+    border-radius: 4px !important;
+  }
+  .post-preview-text {
+    font: normal normal 16px/20px 'Lexend Deca', sans-serif !important;
+  }
+  .post-preview-card {
+    margin: 0px !important;
+    padding: 1rem !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02),
+      0px 4px 8px rgba(22, 48, 72, 0.1);
+    border-radius: 10px !important;
+    height: 100% !important;
+  }
+  .post-preview-footer-back-div {
+    text-align: left;
+  }
+
+  .post-preview-footer-post-div {
+    text-align: right;
+  }
+}
+
+/* post review */
+
+.post-review-header-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.post-review-header-btn {
+  font: normal normal 600 18px/24px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #172849;
+  text-transform: initial !important;
+}
+
+.post-review-card {
+  box-shadow: none;
+  border-radius: 0px !important;
+  padding: 0rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px !important;
+}
+
+.post-review-image {
+  /* width: 100% !important; */
+  height: 450px !important;
+  border-radius: 7.07713px;
+  image-rendering: pixelated;
+  display: grid !important;
+  align-content: space-between;
+  padding-bottom: 20px !important;
+}
+
+.post-review-page-overview {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  text-transform: inherit !important;
+}
+.post-review-page-overview-user-icon {
+  border: 1px solid #ff7d05;
+  height: 29px !important;
+  width: 29px !important;
+  background-size: cover !important;
+  image-rendering: pixelated;
+}
+
+.post-review-page-overview-user-name {
+  font: normal normal 600 12px/15px 'SF Pro Rounded', sans-serif !important;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.post-review-text {
+  text-align: center !important;
+  width: 100% !important;
+  color: #ffffff;
+  font: normal normal 400 13px/20px 'Lexend Deca', sans-serif !important;
+}
+
+.post-review-message-label {
+  color: #172849;
+  text-align: center !important;
+  font: normal normal 500 22px/150% 'SF Pro Rounded', sans-serif !important;
+  margin: 5px 0 !important;
+}
+
+.post-review-message-content {
+  color: #888f9d;
+  text-align: center !important;
+  font: normal normal 14px/150% 'SF Pro Rounded', sans-serif !important;
+  margin: 10px 0 20px 0 !important;
+  padding: 0px 20px !important;
+}
+.post-review-footer-btns-div {
+  text-align: center;
+  position: relative !important;
+  height: 5rem !important;
+  margin: 0px !important;
+}
+
+.post-review-footer-post-btn {
+  width: 100%;
+  height: 45px;
+  position: fixed !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  border-radius: 0px !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .post-review-message-label {
+    margin: 10px 0 20px 0px !important;
+  }
+  .post-review-footer-btns-div {
+    margin: 10px 0 !important;
+    height: auto !important;
+    margin: auto !important;
+  }
+  .post-review-footer-post-btn {
+    width: 82px;
+    height: 40px;
+    border-radius: 4px !important;
+    position: static !important;
+  }
+  .post-review-card {
+    margin: 20px 0px 0px 0px !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02),
+      0px 4px 8px rgba(22, 48, 72, 0.1);
+    border-radius: 10px !important;
+    padding: 1rem;
+  }
+  .post-review-image {
+    height: 350px !important;
+  }
+  .post-review-text {
+    font: normal normal 400 10px/15px 'Lexend Deca', sans-serif !important;
+  }
+  .post-review-page-overview-user-name {
+    font: normal normal 600 7px/9px 'SF Pro Rounded', sans-serif !important;
+  }
+  .post-review-page-overview-user-icon {
+    height: 19px !important;
+    width: 19px !important;
+  }
+}
+
+/* croper model */
+
+.post-image-croper-model-header {
+  font: normal normal 18px/21px 'SF Pro Rounded', sans-serif !important;
+  color: #FFFFFF !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-croper-model-footer {
+  box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.1);
+  height: 50px !important;
+  padding: 0px !important;
+}
+
+.post-croper-model-footer-btn {
+  text-transform: capitalize !important;
+  width: 100% !important;
+  height: 50px !important;
+  border-radius: 0px !important;
+}
+
+.post-category-select-title {
+  font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+  color: #FFFFFF !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .post-croper-model-footer {
+    box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.1);
+    height: auto !important;
+    padding: auto !important;
+  }
+  .post-category-select-title {
+    font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+    color: #172849 !important;
+  }
+  .post-croper-model-footer-btn {
+    text-transform: capitalize !important;
+    width: 82px !important;
+    height: 40px !important;
+    border-radius: 4px !important;
+  }
+  .post-image-croper-model-header {
+    font: normal normal 20px/29px 'SF Pro Rounded', sans-serif !important;
+    color: #172849 !important;
+  }
+}
+
+.post-type-selection-icons-desktop {
+   width:10 !important;
+   height:12 !important;
+}
+.post-type-selection-icons-mobile {
+  width:10 !important;
+  height:12 !important;
+}

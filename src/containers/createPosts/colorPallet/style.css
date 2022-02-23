@@ -1,0 +1,36 @@
+.post-color-pallet-text {
+    color: #FFFFFF;
+    padding: 0px 20px;
+    word-break: break-all !important;
+    font: normal normal 24px/25px "SF Pro Rounded", sans-serif !important;   
+}
+
+.post-color-pallet-lables {
+    font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 5px !important;
+}
+
+.color-paller-child-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 !important;
+}
+
+.color-pallet-chnageImage-btn {
+    text-transform:capitalize !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .post-color-pallet-lables {
+        font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+        color: #1C2121;
+        /* margin-bottom: 10px !important; */
+    }
+    .color-paller-child-div {
+        margin: 20px 0 !important;
+    }
+}
